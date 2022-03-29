@@ -3,7 +3,9 @@ package com.carolinaapp.apis.services;
 import com.carolinaapp.apis.entities.Account;
 import com.carolinaapp.apis.repositories.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AccountServiceImpl implements AccountServices{
     @Autowired
     AccountRepository accountRepository;
